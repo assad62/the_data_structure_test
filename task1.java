@@ -134,7 +134,7 @@ public class Question1{
         ArrayList<Character>[] adjencyList = createAdjencyList();
         
 
-        System.out.println("Answer to question a. \n");
+     System.out.println("Answer to question a. \n");
         ArrayList<ArrayList<Character>> allPaths = getPaths(adjencyList);
         for (int i = 0; i < allPaths.size(); i++) {
             System.out.print((i+1) + " path:" );
